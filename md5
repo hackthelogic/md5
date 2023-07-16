@@ -1,0 +1,13 @@
+#! /usr/bin/php
+
+<?php
+
+//print_r($argv[0]);
+
+if(count($argv) != 2){
+    die("Usage: md5 \"<string>\"");
+}
+
+print(md5($argv[1]));
+
+
